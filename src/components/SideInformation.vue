@@ -11,7 +11,7 @@
         }}</span>
       </template>
       <template #content>
-        <span v-if="!persondlData">CNode：Node.js专业中文社区</span>
+        <span v-if="!persondlData">Node.js专业中文社区</span>
         <div v-else class="personal">
           <router-link
             :to="{
