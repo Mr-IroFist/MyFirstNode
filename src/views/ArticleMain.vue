@@ -56,7 +56,7 @@
                         ? 'iconfont icon-dianzan reply-right-active'
                         : 'iconfont icon-dianzan reply-right'
                     "
-                  ></span
+                  >点赞</span
                   >{{ replie.ups.length }}
                   <span
                     @click="editorShow(index, replie.author.loginname)"
