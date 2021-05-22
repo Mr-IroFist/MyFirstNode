@@ -51,19 +51,17 @@
                 <span
                   ><span
                     @click="likes(replie.id, index)"
-                    style="color:#f00056"
                     :class="
                       replie.is_uped
                         ? 'iconfont icon-dianzan reply-right-active'
                         : 'iconfont icon-dianzan reply-right'
                     "
-                  >点赞</span
+                  ></span
                   >{{ replie.ups.length }}
                   <span
-                  style="color:#f00056"
                     @click="editorShow(index, replie.author.loginname)"
                     class="reply-topic iconfont icon-icon_reply"
-                  >评论</span
+                  ></span
                 ></span>
               </div>
               <span v-html="replie.content"></span>
